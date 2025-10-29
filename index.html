@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
     <script defer src="app.js"></script>
     <title>Task Management</title>
 </head>
@@ -10,8 +11,8 @@
     <div class="box">
         <div class="taskapp">
             <hi>My Tasks</hi>
-            <div class="txtbox" id="textbox">
-                <input type="text" id="task-name" placeholder="Add a new task">
+            <div class="txtbox" id="textbox1">
+                <input type="text" id="taskinput" placeholder="Add a new task">
                 <input type="text" id="category" placeholder="Add category">
                 <input type="text" id="deadline" placeholder="Deadline">
                 <input type="text" id="status" placeholder="Status">
@@ -30,9 +31,12 @@
             <li class="item"><a class="dropdown-item" href="">Status</a></li>
         </ul>
     </div>
+    <div class="list-container">
+        <ul id="task-list"></ul>
+    </div>
 
     <script>
-        // const textbox = document.getElementById('task-name');
+        // const textbox = document.getElementById('taskinput');
         // const button = document.getElementById('btn1');
         // const output = document.getElementById('output1');
 
