@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url()no-repeat center/cover;
+    background: url(sunFlwr.jpg)no-repeat center/cover;
     
 }
 
@@ -31,7 +31,7 @@ body {
     transform: scale(0.98);
 }
 
-.dropdown-select:hover{
+/* .dropdown-select:hover{
     border-color: #1275f6;
     -webkit-box-shadow: 0 0 0 0.25rem rgb(18 117 246 / 15%);
     box-shadow:  0.1 0 0.20rem rbg(18, 117, 246 / 15%);
@@ -40,6 +40,26 @@ body {
 
 .fa-solid {
     font-size: 18px;
-    columns: #8D959F;
+    columns: #e65c06;
     margin-left: auto !important;
+} */
+/* 
+.dropdown-menu {
+   list-style-type: none;
+   width: 248px;
+   overflow: hidden;
+   background-color: #FFF;
+   border: 1px solid #AAB5C4; 
+   border-radius: 10px;
+   margin: 10px 0;
 }
+
+.dropedown-item {
+    text-decoration: none;
+    font-size: 18px;
+    color: #8D959F;
+
+}
+.dropdown-menu li{
+    padding: 15px 0 15px 20px;
+} */
